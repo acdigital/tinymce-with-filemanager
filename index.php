@@ -3,14 +3,21 @@
 <head>
   <meta charset="UTF-8">
   <title></title>
+<!-- 最新 Bootstrap 核心 CSS 文件 -->
+<link rel="stylesheet" href="http://cdn.bootcss.com/twitter-bootstrap/3.1.0/css/bootstrap.min.css">
 </head>
 <body>
 <textarea id="aa" name="aa" cols="30" rows="10">TEST</textarea>
+<!-- jQuery文件。务必在bootstrap.min.js 之前引入 -->
+<script src="http://cdn.bootcss.com/jquery/2.1.0/jquery.min.js"></script>
+
+<!-- 最新的 Bootstrap 核心 JavaScript 文件 -->
+<script src="http://cdn.bootcss.com/twitter-bootstrap/3.1.0/js/bootstrap.min.js"></script>
 <script src="/bundles/tinymce/tinymce.min.js"></script> 
 <script>
 tinymce.init({
 	language : 'zh_TW',
-content_css : "a.css",
+content_css : "http://cdn.bootcss.com/twitter-bootstrap/3.1.0/css/bootstrap.min.css",
 selector:"textarea#aa",
 plugins: [
          "advlist autolink link image lists charmap print preview hr anchor pagebreak",
