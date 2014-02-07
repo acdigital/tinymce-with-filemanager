@@ -6,7 +6,7 @@
 </head>
 <body>
 <textarea id="aa" name="aa" cols="30" rows="10">TEST</textarea>
-<script src="tinymce/tinymce.min.js"></script> 
+<script src="/bundles/tinymce/tinymce.min.js"></script> 
 <script>
 tinymce.init({
 	language : 'zh_TW',
@@ -21,7 +21,7 @@ plugins: [
    toolbar2: "| responsivefilemanager | link unlink anchor | image media | forecolor backcolor  | print preview ",
    image_advtab: true ,
    
-   external_filemanager_path:"/tinymce/plugins/filemanager/",
+   external_filemanager_path:"/bundles/tinymce/plugins/filemanager/",
    filemanager_title:"檔案管理工具" ,
    //external_plugins: { "filemanager" : "/filemanager/plugin.min.js"}
 });
